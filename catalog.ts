@@ -44,7 +44,7 @@ function addToCart(item: Product) {
 
 function createCard(item: Product): HTMLElement {
   const card = document.createElement("li");
-  card.classList = "product-list--item card";
+  card.className = "product-list--item card";
 
   const div = document.createElement("div");
   div.className = "card-image";
@@ -69,7 +69,7 @@ function createCard(item: Product): HTMLElement {
   price.textContent = `$${item.price}`;
 
   const button = document.createElement("button");
-  button.classList = "card-btn add-to-cart";
+  button.className = "card-btn add-to-cart";
   button.textContent = "Add to Cart";
   button.addEventListener("click", () => addToCart(item));
 
@@ -94,6 +94,6 @@ async function displayProducts() {
   }
 }
 
-await displayProducts();
+displayProducts();
 
 export { LocalStorage, fetchProducts, addToCart, displayProducts };
