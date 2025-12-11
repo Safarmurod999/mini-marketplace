@@ -1,12 +1,14 @@
-# React + TypeScript + Vite
+# Mini Marketplace for Click Internship
+Ism: Safarmurod O'rinov
+Ketgan vaqt: 4 yarim soat
+Qiyin bo'lgan joylar: faqat css style larni yaxshilash mayda ish bo'lgani uchun ko'proq vaqt oldi.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Skrinshotlat:
+Product list: 
+![alt text](image.png)
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
+Cart:
+![alt text](image-1.png)
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
