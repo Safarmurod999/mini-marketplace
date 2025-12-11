@@ -1,0 +1,35 @@
+@use "base/normalize";
+@use "base/mixins" as mixin;
+
+@use "components/title";
+@use "components/toplink";
+@use "components/header";
+@use "components/container";
+@use "components/product-list";
+
+@use "pages/products";
+@use "pages/cart";
+
+@include mixin.font-face(
+  "RF Dewi",
+  "RFDewiExtended-Regular.ttf",
+  "truetype",
+  400
+);
+@include mixin.font-face(
+  "RF Dewi",
+  "RFDewiExtended-Semibold.ttf",
+  "truetype",
+  600
+);
+@include mixin.font-face("RF Dewi", "RFDewiExtended-Bold.ttf", "truetype", 700);
+
+:root {
+  --font-primary: "RF Dewi", sans-serif;
+  --text-color: #231f20;
+  --primary: #00aeef;
+  --primary-light: #f4f4f4;
+  --white: #ffffff;
+  --gray: #808080;
+  --transition: all 0.3s ease-in-out;
+}
